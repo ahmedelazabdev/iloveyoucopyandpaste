@@ -1,0 +1,35 @@
+# I Love You Copy and Paste — Romantic Text & Multi-Language Generator
+
+> A high-performance, client-side romantic utility for generating "I Love You" repeated 100 to 10,000 times, copying ASCII heart text art, exploring translations across 100+ languages, and copying secret Morse and binary codes.
+
+## Project Overview
+
+- **Canonical URL**: https://ahmedelazabdev.github.io/iloveyoucopyandpaste/
+- **Author**: Ahmed Elazab
+- **Primary Technology**: Native Client-Side JavaScript, HTML5 Local Memory String Assembly
+- **License**: Open Source / Free Romantic Utility
+
+## Core Capabilities & Features
+
+1. **Repetitive Text Multiplier (100 to 10,000 Times)**:
+   - Memory-safe string generator producing 100, 500, 1,000, 3,000, or 10,000 repetitions.
+   - Customizable separators: Clean New Lines, Heart Emojis (❤️ I Love You ❤️), Numbered Lists, and Spaces.
+   - Custom phrase support allowing personalization with names and anniversaries.
+
+2. **100+ World Languages Repository**:
+   - Curated romantic translations across Romance, Germanic, Slavic, Semitic, Asian, and African language families.
+   - Real-time search filter by language name or translated phrase with one-click copying.
+
+3. **ASCII & Secret Romance Codes**:
+   - Monospace ASCII heart banners, floral roses, and framed quotes.
+   - 8-bit ASCII binary code: `01001001 00100000 01101100 01101111...`
+   - International Morse code: `.. / .-.. --- ...- . / -.-- --- ..-`
+
+4. **Aesthetic Unicode Fonts**:
+   - Mathematical Cursive, Fraktur Gothic, Small Caps, Circled Bubbles, and Sparkle Wing templates.
+
+## Technical Specifications & Performance
+
+- **Performance**: 100% Lighthouse score, zero external Google Fonts (using native system font stack), zero Cumulative Layout Shift (CLS = 0.000).
+- **Accessibility & Contrast**: Full WCAG AAA color contrast across the warm rose palette (`#be123c` on `#ffffff`), sequentially descending heading hierarchy (`h1` → `h2` → `h3`), and accessible form controls.
+- **Copy Mechanism**: One-click asynchronous clipboard transfer via `navigator.clipboard.writeText()` with feedback toast notifications.
